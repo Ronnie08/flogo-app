@@ -1,0 +1,23 @@
+{
+  "name": "flogo-sign-function",
+  "type": "flogo:function",
+  "version": "0.0.1",
+  "title": "sign extended functions",
+  "description": "sign hash extended functions",
+  "homepage": "https://github.com/codelity-co/flogo-datetimex-function",
+  "functions": [
+    {
+      "name": "sign",
+      "description": "return md5、sha256 hash",
+      "example": "Md5(str)",
+      "args": [
+      ],
+      "return": {
+          "type": "string"
+      },
+      "display": {
+          "visible": true
+      }
+    }
+  ]
+}
