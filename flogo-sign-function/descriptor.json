@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "title": "sign extended functions",
   "description": "sign hash extended functions",
-  "homepage": "https://github.com/codelity-co/flogo-datetimex-function",
+  "homepage": "https://github.com/Ronnie08/flogo-app/flogo-sign-function",
   "functions": [
     {
       "name": "sign",
