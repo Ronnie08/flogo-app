@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "title": "sign Functions",
   "description": "sign Functions",
-  "homepage": "https://github.com/Ronnie08/sign",
+  "homepage": "https://github.com/Ronnie08/flogo-app/sign",
   "functions": [
     {
       "name": "md5",

@@ -1,4 +1,4 @@
-module github.com/Ronnie08/sign
+module github.com/Ronnie08/flogo-app/sign
 
 require (
 	github.com/pkg/errors v0.9.1 // indirect
