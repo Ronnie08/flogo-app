@@ -1,22 +1,24 @@
 {
-  "name": "flogo-sign-function",
+  "name": "sign",
   "type": "flogo:function",
-  "version": "0.0.1",
-  "title": "sign extended functions",
-  "description": "sign hash extended functions",
-  "homepage": "https://github.com/Ronnie08/flogo-app/flogo-sign-function",
+  "version": "0.10.0",
+  "title": "sign Functions",
+  "description": "sign Functions",
+  "homepage": "https://github.com/Ronnie08/flogo-sign-function",
   "functions": [
     {
-      "name": "sign",
-      "description": "return md5、sha256 hash",
-      "example": "Md5(str)",
+      "name": "md5",
+      "description": "gernate a md5 hash",
+      "example": "md5",
+      "varArgs": true,
       "args": [
+        {
+          "name": "inputStr",
+          "type": "string"
+        }
       ],
       "return": {
-          "type": "string"
-      },
-      "display": {
-          "visible": true
+        "type": "string"
       }
     }
   ]
