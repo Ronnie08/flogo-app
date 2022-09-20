@@ -1,0 +1,21 @@
+{
+  "name": "datatimex",
+  "type": "flogo:function",
+  "version": "0.0.1",
+  "title": "GetUnixTimestamp Functions",
+  "description": "get unix timestamp Functions",
+  "homepage": "https://github.com/Ronnie08/datatimex",
+  "functions": [
+    {
+      "name": "timestamp",
+      "description": "gernate a unix timestamp hash",
+      "example": "timestamp",
+      "varArgs": true,
+      "args": [
+      ],
+      "return": {
+        "type": "string"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "sign",
+  "type": "flogo:function",
+  "version": "0.0.1",
+  "title": "sign Functions",
+  "description": "sign Functions",
+  "homepage": "https://github.com/Ronnie08/sign",
+  "functions": [
+    {
+      "name": "md5",
+      "description": "gernate a md5(msg) hash",
+      "example": "md5(msg)",
+      "varArgs": true,
+      "args": [
+        {
+          "name": "inputStr",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "sha256",
+      "description": "gernate a sha256(msg) hash",
+      "example": "sha256(msg)",
+      "varArgs": true,
+      "args": [
+        {
+          "name": "inputStr",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "hmac_sha256",
+      "description": "gernate a hmac_sha256(msg, key) hash",
+      "example": "hmac_sha256(msg, key)",
+      "varArgs": true,
+      "args": [
+        {
+          "name": "inputMsg",
+          "type": "string"
+        },
+        {
+          "name": "inputKey",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "string"
+      }
+    }
+  ]
+}

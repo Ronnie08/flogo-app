@@ -1,12 +1,14 @@
 package sign
 
 import (
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/coerce"
-	"github.com/project-flogo/core/data/expression/function"
 	"crypto/md5"
 	"encoding/hex"
 	"fmt"
+
+	"github.com/project-flogo/core/data"
+	"github.com/project-flogo/core/data/coerce"
+	"github.com/project-flogo/core/data/expression/function"
+)
 
 func init() {
 	_ = function.Register(&fnMd5{})
