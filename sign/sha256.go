@@ -22,7 +22,7 @@ func (fnSha256) Name() string {
 }
 
 func (fnSha256) Sig() (paramTypes []data.Type, isVariadic bool) {
-	return []data.Type{data.TypeInt}, true
+	return []data.Type{data.TypeString}, false
 }
 
 func (fnSha256) Eval(params ...interface{}) (interface{}, error) {

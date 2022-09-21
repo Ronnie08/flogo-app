@@ -22,7 +22,7 @@ func (fnMd5) Name() string {
 }
 
 func (fnMd5) Sig() (paramTypes []data.Type, isVariadic bool) {
-	return []data.Type{data.TypeInt}, true
+	return []data.Type{data.TypeString}, false
 }
 
 func (fnMd5) Eval(params ...interface{}) (interface{}, error) {

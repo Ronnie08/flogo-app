@@ -15,7 +15,7 @@ func init() {
 }
 
 func TestMd5(t *testing.T) {
-	final1, _ := s.Eval("123456")
+	final1, _ := s.Eval("12345623902390adadliiojjlloihhggu6@@@#@#fdafl;adjad0dufad9fdfadf")
 	assert.NotNil(t, final1)
 	fmt.Print(final1)
 }

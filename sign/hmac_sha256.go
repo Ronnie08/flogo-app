@@ -23,7 +23,7 @@ func (fnHmacSha256) Name() string {
 }
 
 func (fnHmacSha256) Sig() (paramTypes []data.Type, isVariadic bool) {
-	return []data.Type{data.TypeInt}, true
+	return []data.Type{data.TypeString}, true
 }
 
 func (fnHmacSha256) Eval(params ...interface{}) (interface{}, error) {
