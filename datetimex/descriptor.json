@@ -1,10 +1,10 @@
 {
-  "name": "datatimex",
+  "name": "datetimex",
   "type": "flogo:function",
   "version": "0.0.1",
   "title": "GetUnixTimestamp Functions",
   "description": "get unix timestamp Functions",
-  "homepage": "https://github.com/Ronnie08/flogo-app/datatimex",
+  "homepage": "https://github.com/Ronnie08/flogo-app/datetimex",
   "functions": [
     {
       "name": "timestamp",
