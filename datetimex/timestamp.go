@@ -1,4 +1,4 @@
-package datatimex
+package datetimex
 
 import (
 	"time"
